@@ -1,0 +1,23 @@
+bot:
+  name: "CryptoTradingBot"
+  version: "1.0.0"
+  mode: "demo"
+  demo: true
+  log_level: "INFO"
+
+trading:
+  max_open_trades: 5
+  min_signal_score: 0.65
+
+scanner:
+  scan_interval: 60
+
+indicators:
+  ema:
+    short: 9
+    medium: 21
+    long: 50
+
+signal_weights:
+  macd: 0.15
+  ema_cross: 0.12

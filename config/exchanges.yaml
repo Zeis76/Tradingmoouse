@@ -1,0 +1,4 @@
+exchanges:
+  binance:
+    enabled: true
+    testnet: true
